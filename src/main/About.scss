@@ -1,0 +1,79 @@
+.About {
+  .about-text {
+    h2 {
+      font-family: Roboto;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 57.98px;
+      text-align: center;
+      color: #211f54;
+    }
+    p {
+      font-family: Roboto;
+      font-size: 21px;
+      font-weight: 400;
+      line-height: 30.01px;
+      text-align: center;
+      color: #6e7191;
+      max-width: 648px;
+      margin: 0 auto;
+      padding-top: 21px;
+      padding-bottom: 58px;
+    }
+  }
+  .about-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .about-card {
+      width: 374px;
+      img {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+      }
+      h4 {
+        font-family: Roboto;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 36.01px;
+        text-align: center;
+        color: #211f54;
+      }
+      p {
+        font-family: Roboto;
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 30.01px;
+        text-align: center;
+        color: #6e7191;
+      }
+    }
+  }
+  .btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    padding-bottom: 155px;
+    button {
+      font-family: Roboto;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 20px;
+      text-align: center;
+      color: #211f54;
+      border: none;
+      background: #ffffff;
+      border-radius: 14px;
+      padding: 27px 39px;
+      box-shadow: 0px 4px 10px 0px #14142b0a;
+      cursor: pointer;
+      transition: 0.4s;
+      &:hover {
+        color: #ffffff;
+        background-color: #0075ff;
+      }
+    }
+  }
+}

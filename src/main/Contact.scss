@@ -1,0 +1,178 @@
+.Contact {
+  background: #f7f9fc;
+  .contact-all {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 132px;
+    padding-bottom: 112px;
+    .contact-left {
+      padding-top: 57px;
+      h2 {
+        font-family: Roboto;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 57.98px;
+        text-align: left;
+        color: #211f54;
+        padding-bottom: 33px;
+      }
+      p {
+        font-family: Roboto;
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 30.01px;
+        text-align: left;
+        color: #6e7191;
+        max-width: 485px;
+        padding-bottom: 33px;
+      }
+      .tel {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        padding-bottom: 38px;
+        .tel2 {
+          p {
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 18px;
+            letter-spacing: 1.600000023841858px;
+            text-align: left;
+            color: #6e7191;
+            padding: 0;
+          }
+          a {
+            font-family: Roboto;
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 36.01px;
+            text-align: left;
+            color: #211f54;
+          }
+        }
+      }
+      .line {
+        width: 487px;
+      }
+      .contact-left-bottom {
+        h3 {
+          font-family: Roboto;
+          font-size: 28px;
+          font-weight: 700;
+          line-height: 36.01px;
+          text-align: left;
+          color: #211f54;
+          margin-top: -55px;
+          padding-bottom: 9px;
+        }
+        button {
+          font-family: Roboto;
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 20px;
+          text-align: center;
+          color: #211f54;
+          border: none;
+          background-color: #fff;
+          box-shadow: 0px 4px 10px 0px #14142b0a;
+          padding: 27px 39px;
+          border-radius: 14px;
+        }
+      }
+    }
+    .contact-right {
+      background: #ffffff;
+      box-shadow: 0px 2px 6px 0px #14142b0a;
+      border-radius: 16px;
+      .input-all {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+        .input-left {
+          padding-top: 85px;
+          padding-left: 62px;
+          p {
+            font-family: Roboto;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 30.01px;
+            text-align: left;
+            color: #211f54;
+          }
+          input {
+            outline: none;
+            border: none;
+            box-shadow: 0px 2px 12px 0px #14142b14;
+            height: 50px;
+            width: 200px;
+            border-radius: 16px;
+            margin-bottom: 32px;
+            padding-left: 20px;
+          }
+        }
+        .input-right {
+          padding-top: 85px;
+
+          p {
+            font-family: Roboto;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 30.01px;
+            text-align: left;
+            color: #211f54;
+          }
+          input {
+            outline: none;
+            border: none;
+            box-shadow: 0px 2px 12px 0px #14142b14;
+            height: 50px;
+            width: 200px;
+            border-radius: 16px;
+            margin-bottom: 32px;
+            padding-left: 20px;
+          }
+        }
+      }
+      .input-bottom {
+        padding-top: 33px;
+        padding-left: 61px;
+        p {
+          font-family: Roboto;
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 30.01px;
+          text-align: left;
+          color: #211f54;
+        }
+        input {
+          box-shadow: 0px 2px 7px 0px #14142b14;
+          outline: none;
+          border: none;
+          width: 435px;
+          height: 144px;
+          margin-right: 61px;
+          border-radius: 22px;
+          padding-left: 20px;
+          margin-bottom: 42px;
+        }
+        .input-btn {
+          button {
+            font-family: Roboto;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 20px;
+            text-align: center;
+            color: #ffffff;
+            border: none;
+            background-color: #0075ff;
+            padding: 26px 20px;
+            border-radius: 14px;
+            cursor: pointer;
+            margin-bottom: 85px;
+          }
+        }
+      }
+    }
+  }
+}

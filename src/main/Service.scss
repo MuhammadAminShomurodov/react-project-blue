@@ -1,0 +1,219 @@
+.service-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 48px;
+  h2 {
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.98px;
+    text-align: left;
+    color: #211f54;
+  }
+  button {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #211f54;
+    border: none;
+    background-color: #fff;
+    padding: 27px 39px;
+    border-radius: 14px;
+    box-shadow: 0px 4px 10px 0px #14142b0a;
+    transition: 0.4s;
+    cursor: pointer;
+    &:hover {
+      background-color: #0075ff;
+      color: #fff;
+    }
+  }
+}
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 147px;
+  .card1 {
+    border: 1px solid #eff0f6;
+    border-radius: 16px;
+    max-width: 388px;
+    img {
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      padding-top: 83px;
+    }
+    h3 {
+      font-family: Roboto;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 34.01px;
+      text-align: center;
+      color: #211f54;
+      padding-top: 24px;
+      padding-bottom: 13px;
+    }
+    p {
+      font-family: Roboto;
+      font-size: 21px;
+      font-weight: 400;
+      line-height: 30.01px;
+      text-align: center;
+      color: #6e7191;
+      width: 312px;
+      padding-bottom: 29px;
+    }
+  }
+  .card2 {
+    border: 1px solid #eff0f6;
+    border-radius: 16px;
+    max-width: 388px;
+    img {
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      padding-top: 49px;
+    }
+    h3 {
+      font-family: Roboto;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 34.01px;
+      text-align: center;
+      color: #211f54;
+      padding-top: 24px;
+      padding-bottom: 13px;
+    }
+    p {
+      font-family: Roboto;
+      font-size: 21px;
+      font-weight: 400;
+      line-height: 30.01px;
+      text-align: center;
+      color: #6e7191;
+      width: 312px;
+      padding-bottom: 29px;
+    }
+  }
+  .card3 {
+    border: 1px solid #eff0f6;
+    border-radius: 16px;
+    max-width: 388px;
+    img {
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      padding-top: 73px;
+    }
+    h3 {
+      font-family: Roboto;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 34.01px;
+      text-align: center;
+      color: #211f54;
+      padding-top: 24px;
+      padding-bottom: 13px;
+    }
+    p {
+      font-family: Roboto;
+      font-size: 21px;
+      font-weight: 400;
+      line-height: 30.01px;
+      text-align: center;
+      color: #6e7191;
+      width: 312px;
+      padding-bottom: 29px;
+    }
+  }
+}
+.service-bg {
+  background-color: #211f54;
+  border-radius: 24px;
+  display: flex;
+  margin-bottom: 156px;
+  .right {
+    padding-top: 137px;
+    padding-left: 72px;
+    .par1 {
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 18px;
+      letter-spacing: 1.600000023841858px;
+      text-align: left;
+      color: #ffffff;
+      padding-bottom: 17px;
+    }
+    h2 {
+      font-family: Roboto;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 57.98px;
+      text-align: left;
+      color: #ffffff;
+      max-width: 491px;
+    }
+    .par2 {
+      font-family: Roboto;
+      font-size: 21px;
+      font-weight: 400;
+      line-height: 30.01px;
+      text-align: left;
+      color: #ffffff;
+      //   max-width: 474px;
+      padding-top: 18px;
+      padding-bottom: 12px;
+    }
+    .btns {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+      padding-top: 12px;
+      button {
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 20px;
+        text-align: center;
+        color: #ffffff;
+        background-color: #0075ff;
+        border: none;
+        padding: 26px 38px;
+        border-radius: 14px;
+        cursor: pointer;
+      }
+      .tel {
+        display: flex;
+        align-items: center;
+        .tel2 {
+          padding-left: 16px;
+          p {
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 18px;
+            letter-spacing: 1.600000023841858px;
+            text-align: left;
+            color: #ffffff;
+          }
+          a {
+            font-family: Roboto;
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 36.01px;
+            text-align: left;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+}
+.line {
+  border-bottom: 2px solid #dcddeb;
+  margin-bottom: 147px;
+}

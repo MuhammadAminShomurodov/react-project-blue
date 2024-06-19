@@ -1,0 +1,49 @@
+.header-all {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 44px 0;
+  .header-left {
+    display: flex;
+    align-items: center;
+    .links {
+      padding-left: 40px;
+      a {
+        padding-right: 22px;
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30.01px;
+        text-align: left;
+        color: #211f54;
+      }
+    }
+  }
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    p {
+      font-family: Roboto;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 30.01px;
+      text-align: left;
+      color: #211f54;
+    }
+    button {
+      background: none;
+      border: none;
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 18px;
+      text-align: center;
+      color: #ffffff;
+      background-color: #0075ff;
+      border-radius: 14px;
+      padding: 17px 24px;
+      cursor: pointer;
+    }
+  }
+}
