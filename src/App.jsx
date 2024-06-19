@@ -5,6 +5,7 @@ import Articles from "./main/Articles";
 import Quality from "./main/Quality";
 import Service from "./main/Service";
 import Contact from "./main/Contact";
+import Footer from "./footer/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Service />
       <Articles />
       <Contact />
+      <Footer/>
     </div>
   );
 }
